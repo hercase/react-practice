@@ -1,0 +1,15 @@
+.counter {
+  margin: 1rem auto;
+  width: 400px;
+  padding: 1rem;
+  color: #fffffc;
+  background: #1d3557;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.counter p {
+  font-size: 5rem;
+}

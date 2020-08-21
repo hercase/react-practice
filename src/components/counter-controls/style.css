@@ -1,0 +1,29 @@
+.button {
+  margin: 1rem;
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #264653;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s all linear;
+}
+
+.button:hover {
+  filter: brightness(1.2);
+}
+
+.button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.button--green {
+  background-color: #06d6a0;
+}
+
+.button--red {
+  background-color: #ef476f;
+}
