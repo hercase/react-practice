@@ -12,3 +12,7 @@
   height: 100vh;
   padding-top: 2rem;
 }
+
+small {
+  font-variant: all-small-caps;
+}
