@@ -1,5 +1,8 @@
 import React, { useContext } from "react";
 import CounterContext from "../../context/counter-context";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+
 import "./style.css";
 
 const CounterControls = () => {
@@ -11,13 +14,13 @@ const CounterControls = () => {
         className="button button--green"
         onClick={() => setCounter(counter + 1)}
       >
-        <i className="fa fa-plus" aria-hidden="true"></i>
+        <FontAwesomeIcon icon={faPlus} size="xs" />
       </button>
       <button
-        className="button bWutton--red"
+        className="button button--red"
         onClick={() => setCounter(counter - 1)}
       >
-        <i className="fa fa-minus" aria-hidden="true"></i>
+        <FontAwesomeIcon icon={faMinus} size="xs" />
       </button>
     </div>
   );
