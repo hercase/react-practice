@@ -1,4 +1,4 @@
-# React with Context
+# React Practice
 
 This is just another project for get practice with React. ⚛ ️
 
