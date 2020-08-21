@@ -1,3 +1,7 @@
-# react-with-context
+# React with Context
 
-Created with CodeSandbox
+This is just another project for get practice with React. ⚛ ️
+
+Knowledge in practice:
+
+- React Context
